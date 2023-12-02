@@ -1,0 +1,8 @@
+--cuda --do_train --do_valid --do_test
+--data_path ./data/FB15k-237-betae --save_path ./logs/FB15k-237/gqe_temp --eval_path data/FB15k-237-betae/eval-betae  -n 128 -b 512 -d 800 -g 24
+-lr 0.0001 --max_steps 450000 --valid_steps 10000 --save_checkpoint_steps 10000
+--cpu_num 1 --geo vec --test_batch_size 16 --tasks 1p.2p.3p.2i.3i.ip.pi.2u.up --print_on_screen
+--faithful no_faithful --model_mode temp --neighbor_ent_type_samples 32 --neighbor_rel_type_samples 64
+--training_tasks 1p.2p.3p.2i.3i --optim_mode (aggr,adam,cpu,False,5) --online_weighted_structure_prob (2,2,2,1,1)
+--sampler_type naive --online_sample --online_sample_mode (500,0,w,wstruct,120) --train_online_mode (single,3000,e,True,before)
+--filter_test

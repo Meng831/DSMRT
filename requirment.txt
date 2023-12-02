@@ -1,0 +1,5 @@
+Python == 3.9.0
+numpy  == 1.24.1
+pickle5 == 0.11
+torch  ==  2.0.0+cu117
+tensorboardX  ==  2.6.2.2
