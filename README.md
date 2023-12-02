@@ -21,13 +21,11 @@ cd DSMRT
 
 ## Start training
 For Generalization:
-
-Take FB15k-237 dataset on GQE:
+For example, Take FB15k-237 dataset on GQE :
 
 The script is in GQE_Fb15k-237.sh
 
 For Deductive:
-
-Take FB15k-237 dataset on GQE:
+For example, Take FB15k-237 dataset on GQE:
 
 The script is in GQE_Fb15k-237_Ded.sh
